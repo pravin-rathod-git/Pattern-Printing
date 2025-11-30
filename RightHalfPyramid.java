@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class RightHalfPyramid {
+    public static void main(String[] args)
+    {
+
+        // Number of rows
+        int N = 5;
+
+        // Outer loop runs N times, once for each row
+        for (int i = 1; i <= N; i++) {
+            // Inner loop prints 'i' stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            // Move to the next line
+            System.out.println();
+        }
+    }
+}
